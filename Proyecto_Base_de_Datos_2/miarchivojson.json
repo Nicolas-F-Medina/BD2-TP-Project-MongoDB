@@ -1,0 +1,14 @@
+[ "bd_MongoBD2TP.Cliente@5a01ccaa\n", {
+  "dni" : 21,
+  "nombre" : "Agustin",
+  "apellido" : "LopezDuamante",
+  "domicilio" : {
+    "idDomicilio" : 2,
+    "calle" : "Las Americas",
+    "numero" : 713,
+    "localidad" : "Guernica",
+    "provincia" : "Buenos Aires"
+  },
+  "obraSocial" : "IOMA",
+  "nroAfiliado" : 1002
+} ]
