@@ -12,9 +12,9 @@ public class Producto {
 	private float precio;
 	private String laboratorio;
 	private List<Producto> listProductos;
-	private String metodoPago;
 	
-	public Producto(int codigoNumerico, String tipo, String descripcion, float precio, String laboratorio, String metodoPago) {
+	
+	public Producto(int codigoNumerico, String tipo, String descripcion, float precio, String laboratorio) {
 		super();
 		this.codigoNumerico = codigoNumerico;
 		this.tipo = tipo;
@@ -22,7 +22,7 @@ public class Producto {
 		this.precio = precio;
 		this.laboratorio = laboratorio;
 		this.listProductos = new ArrayList<Producto>();
-		this.metodoPago=metodoPago;
+		
 	}
 	
 	public int getCodigoNumerico() {
@@ -62,11 +62,5 @@ public class Producto {
 		this.listProductos = listProductos;
 	}
 
-	public String getMetodoPago() {
-		return metodoPago;
-	}
-
-	public void setMetodoPago(String metodoPago) {
-		this.metodoPago = metodoPago;
-	}
+	
 }
