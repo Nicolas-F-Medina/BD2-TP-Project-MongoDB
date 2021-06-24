@@ -1,19 +1,20 @@
 package bd_MongoBD2TP;
-
 import java.time.LocalDate;
+import java.util.List;
 
 
 public class Venta {
 	
-	private int numeroTicket;
+	private String numeroTicket;
 	private LocalDate fecha;
 	private Empleado empleadoAtencion;
 	private Empleado empleadoCobro;
 	private Cliente cliente;
 	private String metodoPago;
+	private List<Producto> productosVendidos;
 	
-	public Venta(int numeroTicket, LocalDate fecha, Empleado empleadoAtencion, Empleado empleadoCobro,
-			Cliente cliente, String metodoPago) {
+	public Venta(String numeroTicket, LocalDate fecha, Empleado empleadoAtencion, Empleado empleadoCobro,
+			Cliente cliente, String metodoPago, List<Producto> productosVendidos) {
 		super();
 		this.numeroTicket = numeroTicket;
 		this.fecha = fecha;
@@ -21,13 +22,14 @@ public class Venta {
 		this.empleadoCobro = empleadoCobro;
 		this.cliente = cliente;
 		this.metodoPago=metodoPago;
+		this.productosVendidos= productosVendidos;
 	}
 
-	public int getNumeroTicket() {
+	public String getNumeroTicket() {
 		return numeroTicket;
 	}
 
-	public void setNumeroTicket(int numeroTicket) {
+	public void setNumeroTicket(String numeroTicket) {
 		this.numeroTicket = numeroTicket;
 	}
 
@@ -70,4 +72,21 @@ public class Venta {
 	public void setMetodoPago(String metodoPago) {
 		this.metodoPago = metodoPago;
 	}
+
+	public List<Producto> getProductosVendidos() {
+		return productosVendidos;
+	}
+
+	public void setProductosVendidos(List<Producto> productosVendidos) {
+		this.productosVendidos = productosVendidos;
+	}
+
+	@Override
+	public String toString() {
+		return "Venta [numeroTicket=" + numeroTicket + ", productosVendidos=" + productosVendidos + "]";
+	}
+
+	
+	
+	
 }
