@@ -1,8 +1,5 @@
 package bd_MongoBD2TP;
 
-import java.util.ArrayList;
-import java.util.List;
-
 
 public class Producto {
 	
@@ -11,7 +8,7 @@ public class Producto {
 	private String descripcion;
 	private float precio;
 	private String laboratorio;
-	private List<Producto> listProductos;
+	
 	
 	
 	public Producto(int codigoNumerico, String tipo, String descripcion, float precio, String laboratorio) {
@@ -21,7 +18,7 @@ public class Producto {
 		this.descripcion = descripcion;
 		this.precio = precio;
 		this.laboratorio = laboratorio;
-		this.listProductos = new ArrayList<Producto>();
+
 		
 	}
 	
@@ -55,12 +52,7 @@ public class Producto {
 	public void setLaboratorio(String laboratorio) {
 		this.laboratorio = laboratorio;
 	}
-	public List<Producto> getListProductos() {
-		return listProductos;
-	}
-	public void setListProductos(List<Producto> listProductos) {
-		this.listProductos = listProductos;
-	}
+
 
 	
 }

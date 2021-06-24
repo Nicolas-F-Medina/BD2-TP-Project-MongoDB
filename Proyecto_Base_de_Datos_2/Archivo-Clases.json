@@ -178,39 +178,40 @@
   }
 }, {
   "codigoNumerico" : 42496,
-  "tipo" : "Vacuna",
+  "tipo" : "Laboratorio",
   "descripcion" : "Astrazeneca",
   "precio" : 750.0,
-  "laboratorio" : "George SA",
-  "listProductos" : [ ]
+  "laboratorio" : "George SA"
 }, {
   "codigoNumerico" : 154624,
-  "tipo" : "Vacuna",
+  "tipo" : "Laboratorio",
   "descripcion" : "Sinopharm",
   "precio" : 900.0,
-  "laboratorio" : "George SA",
-  "listProductos" : [ ]
+  "laboratorio" : "George SA"
 }, {
   "codigoNumerico" : 789000,
-  "tipo" : "Comprimidos",
-  "descripcion" : "Tafirol",
+  "tipo" : "Perfumeria",
+  "descripcion" : "Talco",
   "precio" : 1200.0,
-  "laboratorio" : "Sulyvan SRL",
-  "listProductos" : [ ]
+  "laboratorio" : "Sulyvan SRL"
 }, {
   "codigoNumerico" : 52736,
-  "tipo" : "Antibiotico",
-  "descripcion" : "Ceftriaxona",
+  "tipo" : "Pefumeria",
+  "descripcion" : "Desodorante",
   "precio" : 800.0,
-  "laboratorio" : "Cuchurrumin SRL",
-  "listProductos" : [ ]
+  "laboratorio" : "Cuchurrumin SRL"
 }, {
   "codigoNumerico" : 258000,
-  "tipo" : "Vacuna",
+  "tipo" : "Laboratorio",
   "descripcion" : "Sputnik v",
   "precio" : 3250.0,
-  "laboratorio" : "Igor S.A",
-  "listProductos" : [ ]
+  "laboratorio" : "Igor S.A"
+}, {
+  "codigoNumerico" : 258030,
+  "tipo" : "Pefumeria",
+  "descripcion" : "Perfume Femenino",
+  "precio" : 320.0,
+  "laboratorio" : "Bogues"
 }, {
   "dni" : 1,
   "nombre" : "Nicolas",
@@ -277,5 +278,780 @@
   "obraSocial" : "Ioma",
   "nroAfiliado" : 1002
 }, {
-  "numeroTicket" : 1,
-  "fecha"
+  "numeroTicket" : "1",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 1472,
+    "dni" : 12,
+    "nombre" : "Julian",
+    "apellido" : "Jesus",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "San Lorenzo",
+      "numero" : 245,
+      "localidad" : "Adrogue",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 45,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 9147,
+    "dni" : 14,
+    "nombre" : "Julio",
+    "apellido" : "Buen Dia",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Fico",
+      "numero" : 234,
+      "localidad" : "Merlo",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : false,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 454555,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 1,
+    "nombre" : "Nicolas",
+    "apellido" : "Romero",
+    "domicilio" : {
+      "idDomicilio" : 1,
+      "calle" : "Las Americas",
+      "numero" : 1234,
+      "localidad" : "Guernica",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 1001
+  },
+  "metodoPago" : "Efectivo",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 42496,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Astrazeneca",
+    "precio" : 750.0,
+    "laboratorio" : "George SA"
+  }, {
+    "codigoNumerico" : 789000,
+    "tipo" : "Perfumeria",
+    "descripcion" : "Talco",
+    "precio" : 1200.0,
+    "laboratorio" : "Sulyvan SRL"
+  }, {
+    "codigoNumerico" : 154624,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sinopharm",
+    "precio" : 900.0,
+    "laboratorio" : "George SA"
+  } ]
+}, {
+  "numeroTicket" : "2",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 5836,
+    "dni" : 13,
+    "nombre" : "Jose",
+    "apellido" : "Lopez",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Ugarte",
+      "numero" : 235,
+      "localidad" : "Marmol",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : false,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 787,
+    "sucursal" : {
+      "idSucursal" : 2,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Belgrano",
+        "numero" : 1345,
+        "localidad" : "CABA",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 2583,
+    "dni" : 15,
+    "nombre" : "Jorge",
+    "apellido" : "Malon",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Yrigoyen",
+      "numero" : 345,
+      "localidad" : "Belgrano",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 7899,
+    "sucursal" : {
+      "idSucursal" : 2,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Belgrano",
+        "numero" : 1345,
+        "localidad" : "CABA",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 5,
+    "nombre" : "Aylen",
+    "apellido" : "Fernandez",
+    "domicilio" : {
+      "idDomicilio" : 3,
+      "calle" : "Dorrego",
+      "numero" : 7891,
+      "localidad" : "Monte Grande",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Osmedica",
+    "nroAfiliado" : 874
+  },
+  "metodoPago" : "Cheque",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 52736,
+    "tipo" : "Pefumeria",
+    "descripcion" : "Desodorante",
+    "precio" : 800.0,
+    "laboratorio" : "Cuchurrumin SRL"
+  }, {
+    "codigoNumerico" : 52736,
+    "tipo" : "Pefumeria",
+    "descripcion" : "Desodorante",
+    "precio" : 800.0,
+    "laboratorio" : "Cuchurrumin SRL"
+  }, {
+    "codigoNumerico" : 52736,
+    "tipo" : "Pefumeria",
+    "descripcion" : "Desodorante",
+    "precio" : 800.0,
+    "laboratorio" : "Cuchurrumin SRL"
+  } ]
+}, {
+  "numeroTicket" : "3",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 1472,
+    "dni" : 12,
+    "nombre" : "Julian",
+    "apellido" : "Jesus",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "San Lorenzo",
+      "numero" : 245,
+      "localidad" : "Adrogue",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 45,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 1472,
+    "dni" : 12,
+    "nombre" : "Julian",
+    "apellido" : "Jesus",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "San Lorenzo",
+      "numero" : 245,
+      "localidad" : "Adrogue",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 45,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 2,
+    "nombre" : "Agustin",
+    "apellido" : "Gonzales",
+    "domicilio" : {
+      "idDomicilio" : 2,
+      "calle" : "Fournier",
+      "numero" : 4567,
+      "localidad" : "Ezeiza",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Ospe",
+    "nroAfiliado" : 1987
+  },
+  "metodoPago" : "Efectivo",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 258030,
+    "tipo" : "Pefumeria",
+    "descripcion" : "Perfume Femenino",
+    "precio" : 320.0,
+    "laboratorio" : "Bogues"
+  } ]
+}, {
+  "numeroTicket" : "4",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 1472,
+    "dni" : 12,
+    "nombre" : "Julian",
+    "apellido" : "Jesus",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "San Lorenzo",
+      "numero" : 245,
+      "localidad" : "Adrogue",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 45,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 9147,
+    "dni" : 14,
+    "nombre" : "Julio",
+    "apellido" : "Buen Dia",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Fico",
+      "numero" : 234,
+      "localidad" : "Merlo",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : false,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 454555,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 1,
+    "nombre" : "Nicolas",
+    "apellido" : "Romero",
+    "domicilio" : {
+      "idDomicilio" : 1,
+      "calle" : "Las Americas",
+      "numero" : 1234,
+      "localidad" : "Guernica",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 1001
+  },
+  "metodoPago" : "Mercado Pago",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  }, {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  }, {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  } ]
+}, {
+  "numeroTicket" : "5",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 1472,
+    "dni" : 12,
+    "nombre" : "Julian",
+    "apellido" : "Jesus",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "San Lorenzo",
+      "numero" : 245,
+      "localidad" : "Adrogue",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 45,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 9147,
+    "dni" : 14,
+    "nombre" : "Julio",
+    "apellido" : "Buen Dia",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Fico",
+      "numero" : 234,
+      "localidad" : "Merlo",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : false,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 454555,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 1,
+    "nombre" : "Nicolas",
+    "apellido" : "Romero",
+    "domicilio" : {
+      "idDomicilio" : 1,
+      "calle" : "Las Americas",
+      "numero" : 1234,
+      "localidad" : "Guernica",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 1001
+  },
+  "metodoPago" : "Efectivo",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 258030,
+    "tipo" : "Pefumeria",
+    "descripcion" : "Perfume Femenino",
+    "precio" : 320.0,
+    "laboratorio" : "Bogues"
+  } ]
+}, {
+  "numeroTicket" : "6",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 1472,
+    "dni" : 12,
+    "nombre" : "Julian",
+    "apellido" : "Jesus",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "San Lorenzo",
+      "numero" : 245,
+      "localidad" : "Adrogue",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 45,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 1472,
+    "dni" : 12,
+    "nombre" : "Julian",
+    "apellido" : "Jesus",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "San Lorenzo",
+      "numero" : 245,
+      "localidad" : "Adrogue",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 45,
+    "sucursal" : {
+      "idSucursal" : 1,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Florida",
+        "numero" : 45,
+        "localidad" : "Lomitas",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 1,
+    "nombre" : "Nicolas",
+    "apellido" : "Romero",
+    "domicilio" : {
+      "idDomicilio" : 1,
+      "calle" : "Las Americas",
+      "numero" : 1234,
+      "localidad" : "Guernica",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 1001
+  },
+  "metodoPago" : "Modo",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  }, {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  }, {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  } ]
+}, {
+  "numeroTicket" : "7",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 5836,
+    "dni" : 13,
+    "nombre" : "Jose",
+    "apellido" : "Lopez",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Ugarte",
+      "numero" : 235,
+      "localidad" : "Marmol",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : false,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 787,
+    "sucursal" : {
+      "idSucursal" : 2,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Belgrano",
+        "numero" : 1345,
+        "localidad" : "CABA",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 2583,
+    "dni" : 15,
+    "nombre" : "Jorge",
+    "apellido" : "Malon",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Yrigoyen",
+      "numero" : 345,
+      "localidad" : "Belgrano",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 7899,
+    "sucursal" : {
+      "idSucursal" : 2,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Belgrano",
+        "numero" : 1345,
+        "localidad" : "CABA",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 3,
+    "nombre" : "Nicolas",
+    "apellido" : "Rodriguez",
+    "domicilio" : {
+      "idDomicilio" : 3,
+      "calle" : "Dorrego",
+      "numero" : 7891,
+      "localidad" : "Monte Grande",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Femeba",
+    "nroAfiliado" : 4588
+  },
+  "metodoPago" : "Efectivo",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 52736,
+    "tipo" : "Pefumeria",
+    "descripcion" : "Desodorante",
+    "precio" : 800.0,
+    "laboratorio" : "Cuchurrumin SRL"
+  }, {
+    "codigoNumerico" : 52736,
+    "tipo" : "Pefumeria",
+    "descripcion" : "Desodorante",
+    "precio" : 800.0,
+    "laboratorio" : "Cuchurrumin SRL"
+  }, {
+    "codigoNumerico" : 52736,
+    "tipo" : "Pefumeria",
+    "descripcion" : "Desodorante",
+    "precio" : 800.0,
+    "laboratorio" : "Cuchurrumin SRL"
+  } ]
+}, {
+  "numeroTicket" : "8",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 2583,
+    "dni" : 15,
+    "nombre" : "Jorge",
+    "apellido" : "Malon",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Yrigoyen",
+      "numero" : 345,
+      "localidad" : "Belgrano",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 7899,
+    "sucursal" : {
+      "idSucursal" : 2,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Belgrano",
+        "numero" : 1345,
+        "localidad" : "CABA",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 2583,
+    "dni" : 15,
+    "nombre" : "Jorge",
+    "apellido" : "Malon",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Yrigoyen",
+      "numero" : 345,
+      "localidad" : "Belgrano",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : true,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 7899,
+    "sucursal" : {
+      "idSucursal" : 2,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Belgrano",
+        "numero" : 1345,
+        "localidad" : "CABA",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 1,
+    "nombre" : "Nicolas",
+    "apellido" : "Romero",
+    "domicilio" : {
+      "idDomicilio" : 1,
+      "calle" : "Las Americas",
+      "numero" : 1234,
+      "localidad" : "Guernica",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Ioma",
+    "nroAfiliado" : 1001
+  },
+  "metodoPago" : "Efectivo",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 42496,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Astrazeneca",
+    "precio" : 750.0,
+    "laboratorio" : "George SA"
+  }, {
+    "codigoNumerico" : 789000,
+    "tipo" : "Perfumeria",
+    "descripcion" : "Talco",
+    "precio" : 1200.0,
+    "laboratorio" : "Sulyvan SRL"
+  }, {
+    "codigoNumerico" : 154624,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sinopharm",
+    "precio" : 900.0,
+    "laboratorio" : "George SA"
+  } ]
+}, {
+  "numeroTicket" : "9",
+  "fecha" : "14::07::21",
+  "empleadoAtencion" : {
+    "cuil" : 5836,
+    "dni" : 13,
+    "nombre" : "Jose",
+    "apellido" : "Lopez",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Ugarte",
+      "numero" : 235,
+      "localidad" : "Marmol",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : false,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 787,
+    "sucursal" : {
+      "idSucursal" : 2,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Belgrano",
+        "numero" : 1345,
+        "localidad" : "CABA",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "empleadoCobro" : {
+    "cuil" : 5836,
+    "dni" : 13,
+    "nombre" : "Jose",
+    "apellido" : "Lopez",
+    "domicilio" : {
+      "idDomicilio" : 4,
+      "calle" : "Ugarte",
+      "numero" : 235,
+      "localidad" : "Marmol",
+      "provincia" : "Buenos Aires"
+    },
+    "encargado" : false,
+    "obraSocial" : "Swiss Medical",
+    "nroAfiliado" : 787,
+    "sucursal" : {
+      "idSucursal" : 2,
+      "domicilio" : {
+        "idDomicilio" : 4,
+        "calle" : "Belgrano",
+        "numero" : 1345,
+        "localidad" : "CABA",
+        "provincia" : "Buenos Aires"
+      }
+    }
+  },
+  "cliente" : {
+    "dni" : 5,
+    "nombre" : "Aylen",
+    "apellido" : "Fernandez",
+    "domicilio" : {
+      "idDomicilio" : 3,
+      "calle" : "Dorrego",
+      "numero" : 7891,
+      "localidad" : "Monte Grande",
+      "provincia" : "Buenos Aires"
+    },
+    "obraSocial" : "Osmedica",
+    "nroAfiliado" : 874
+  },
+  "metodoPago" : "Transferecia",
+  "productosVendidos" : [ {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  }, {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  }, {
+    "codigoNumerico" : 258000,
+    "tipo" : "Laboratorio",
+    "descripcion" : "Sputnik v",
+    "precio" : 3250.0,
+    "laboratorio" : "Igor S.A"
+  } ]
+} ]
